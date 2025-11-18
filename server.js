@@ -1,6 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
+const onnx = require('onnxruntime-node');
 const userRoutes = require('./routes/userRoutes');
 const mainRoutes = require('./routes/mainRoutes');
 require('dotenv').config();
