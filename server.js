@@ -19,7 +19,7 @@ app.use(cors({
 }));
 
 app.use('/user', userRoutes);
-app.use('/', mainRoutes);
+app.use('/main', mainRoutes);
 
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
